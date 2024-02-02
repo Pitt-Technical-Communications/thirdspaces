@@ -83,18 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const restart = document.querySelector('.restart');
 
-  restart.addEventListener('click', function (event) {
-    event.preventDefault();
-    const isRestartConfirmed = window.confirm("Are you sure you want to restart from the beginning?");
-    if (isRestartConfirmed) {
-      window.location.href = "index.html";
-    } else {
-    }
-  });
-});
 
 
 
